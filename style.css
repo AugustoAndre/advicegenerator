@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-color: hsl(217, 19%, 24%);
-  font-family: 'Manrope', sans-serif;;
-  Font-size: 28px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 28px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,7 @@ body{
   justify-content: center;
 }
 
-
-#container{
+#container {
   width: min(90vw, 450px);
   background-color: hsl(217, 19%, 38%);
   color: hsl(193, 38%, 86%);
@@ -28,17 +27,17 @@ body{
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
 }
 
-h1{
+h1 {
   font-size: 14px;
   letter-spacing: 4px;
   color: hsl(150, 100%, 66%);
 }
 
-p{
-margin: 2rem 0;
+p {
+  margin: 2rem 0;
 }
 
-#dice{
+#dice {
   background-color: hsl(150, 100%, 66%);
   background-image: url('./images/icon-dice.svg');
   background-position: center;
@@ -52,7 +51,11 @@ margin: 2rem 0;
   cursor: pointer;
 }
 
-#pattern{
+#dice:hover {
+  box-shadow: 2px 2px 20px hsla(150, 100%, 66%, 1);
+}
+
+#pattern {
   width: 20rem;
 }
 .attribution {
